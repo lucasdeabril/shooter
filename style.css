@@ -1,0 +1,52 @@
+*{
+    transition: 0.5s;
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(./arena.jpeg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-size:100% 170%;
+
+}
+
+.alvo{
+    background-color: red;
+    width: 50px;
+    height: 90px;
+    display: inline;
+    margin-left: -200px;
+    transform: translate(0px,10px);
+}
+.spawn{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.btn{
+    position: absolute;
+    display: flex;
+    transform: translate(600px,200px);
+}
+input{
+    margin:5px;
+    width: 50px;
+    height: 30px;
+}
+#spawn1{
+    transform: translate(200px,0px);
+    
+}
+#spawn2{
+    transform: translate(1120px,50px);
+}
+#spawn3{
+    transform: translate(780px,200px);
+}
+#spawn4{
+    transform: translate(1250px,200px);
+}
