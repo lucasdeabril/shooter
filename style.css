@@ -1,0 +1,106 @@
+*{
+    transition: 0.5s;
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(./arena.jpeg);
+    background-repeat: no-repeat;
+    background-size:100% 1600%;
+
+}
+
+.placar{
+    color: white;
+    font-size: 40px;
+}
+
+.alvo{
+    background-color: red;
+    width: 50px;
+    height: 90px;
+    display: inline;
+    margin-left: -200px;
+    transform: translate(0px,10px);
+}
+.spawn{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    align-items: flex-start;
+    position:absolute;
+}
+
+.btn{
+    position: absolute;
+    display: flex;
+    transform: translate(600px,600px);
+}
+input{
+    margin:5px;
+    width: 50px;
+    height: 30px;
+}
+#spawn1{
+    transform: translate(200px,0px);
+    height: 15rem;
+    
+}
+#spawn1 img{
+    scale: 2;
+    transform: translate(0px,30px);
+}
+#spawn2 img{
+    scale: 1.5;
+    transform: translate(0px,30px);
+    
+}
+#spawn2{
+    transform: translate(220px,500px);
+    height: 10rem;
+}
+#spawn3{
+    transform: translate(630px,400px);
+}
+#spawn4{
+    transform: translate(1220px,500px);
+}
+@media screen and (max-width:400px){
+    body{
+        background-image:url(./arena.jpeg);
+        background-repeat: no-repeat;
+        background-size:100% 1310%;
+    
+    }
+    #spawn1{
+        transform: translate(-50px,0px);
+        height: 15rem;
+        
+    }
+    #spawn1 img{
+        scale: 1.6;
+        transform: translate(0px,40px);
+    }
+    #spawn2 img{
+        scale: 1.3;
+        transform: translate(0px,30px);
+        
+    }
+    #spawn2{
+        transform: translate(0px,400px);
+        height: 10rem;
+    }
+    #spawn3{
+        transform: translate(70px,300px);
+    }
+    #spawn4{
+        transform: translate(190px,400px);
+    }
+    .btn{
+        position: absolute;
+        display: flex;
+        transform: translate(120px,520px);
+    }
+}
